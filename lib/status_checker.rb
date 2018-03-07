@@ -1,5 +1,4 @@
-require "status_checker/version"
+require_relative "status_checker/version"
+require_relative "status_checker/status_checker"
 
-module StatusChecker
-  # Your code goes here...
-end
+#StatusChecker::StatusChecker.get_status("https://gitlab.com")

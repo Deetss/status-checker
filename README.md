@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To run the script, just add this.
+
+```ruby
+StatusChecker::StatusChecker.get_status(uri)
+```
 
 ## Development
 

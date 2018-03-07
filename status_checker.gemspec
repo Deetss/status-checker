@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Deetss"]
   spec.email         = ["dylan817@live.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Status Checker is a small ruby gem to check the status of a given uri, printing the time it took for each request. Then prirnting the average response time.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
