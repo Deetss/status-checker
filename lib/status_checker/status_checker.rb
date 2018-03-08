@@ -20,7 +20,7 @@ module StatusChecker
       
       target = Request.new(uri)
       
-      puts "Status checker will send requests to #{target.uri} for 1 minute every 10 seconds."
+      puts "Status checker will send requests to #{target.uri} every 10 seconds for 1 minute."
       
       6.times do |i|
         
@@ -30,7 +30,7 @@ module StatusChecker
         
         completion_times << (Time.now - start) * 1000
         
-        puts "Request to #{response.uri} responded with '#{response.code} #{response.message}' and took #{completion_times[-1]} ms"
+        puts "Request to '#{response.uri}' responded with '#{response.code} #{response.message}' and took #{completion_times[-1]} ms."
         
         sleep 10 unless i == 5
       end
