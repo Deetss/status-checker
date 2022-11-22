@@ -1,6 +1,6 @@
 # StatusChecker
 
-Status Checker is a small ruby gem to check the status of a given uri, printing the time it took for each request. Then prirnting the average response time.
+Status Checker is a small ruby gem to check the status of a given uri, printing the time it took for each request. Then printing the average response time.
 
 ## Installation
 
